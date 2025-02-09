@@ -1,0 +1,27 @@
+.currency-dropdown {
+  button {
+    border-radius: 24px;
+    border: 1px solid #545c5e;
+    min-width: 120px;
+    height: 48px;
+
+    color: var(--text);
+    background-color: var(--primary-lighter);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  }
+
+  img {
+    vertical-align: bottom;
+    margin-right: 8px;
+    transform: scale(1.3);
+  }
+
+  &__menu {
+    max-height: 240px;
+    overflow-y: scroll;
+  }
+
+  &__menu li {
+    cursor: pointer;
+  }
+}
